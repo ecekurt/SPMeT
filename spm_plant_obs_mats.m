@@ -50,8 +50,8 @@ N1 = zeros(2,p.Nr-1);
 % 
 % N2 = diag([-1,1]);
 % 
-% N3_n = [0; (p.delta_r_n * p.R_s_n)/(p.D_s_n * p.Faraday * p.a_s_n * p.Area * p.L_n)];
-% N3_p = [0; -(p.delta_r_p * p.R_s_p)/(p.D_s_p * p.Faraday * p.a_s_p * p.Area * p.L_p)];
+% N3_n = [0; -(p.delta_r_n * p.R_s_n)/(p.D_s_n )];
+% N3_p = [0; -(p.delta_r_p * p.R_s_p)/(p.D_s_p )];
 
 % 2nd Order BCs
 N1(1,1) = 4;
